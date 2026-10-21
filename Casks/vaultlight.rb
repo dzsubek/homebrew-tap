@@ -3,12 +3,13 @@
 # `version` and `sha256` lines below; edit everything else here.
 cask "vaultlight" do
   version "0.1.0"
-  sha256 "1d610222483b743f56652a7bce2ab5db3945082bada5c69fafbd58925b3130bd"
+  sha256 "0ecf510624674be612ae94bc37e518870756c0b2818d83522016bd61f99f2ede"
 
-  url "https://github.com/dzsubek/VaultLight/releases/download/v#{version}/VaultLight-#{version}.zip"
+  url "https://github.com/dzsubek/homebrew-tap/releases/download/v#{version}/VaultLight-#{version}.zip",
+      verified: "github.com/dzsubek/homebrew-tap/"
   name "VaultLight"
   desc "Unofficial quick-access panel for Bitwarden, not affiliated with Bitwarden"
-  homepage "https://github.com/dzsubek/VaultLight"
+  homepage "https://github.com/dzsubek/homebrew-tap"
 
   depends_on formula: "bitwarden-cli"
   depends_on macos: :sonoma
