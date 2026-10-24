@@ -2,8 +2,8 @@
 # The release workflow renders it with scripts/render-cask.sh, which replaces the
 # `version` and `sha256` lines below; edit everything else here.
 cask "vaultlight" do
-  version "0.1.0"
-  sha256 "0ecf510624674be612ae94bc37e518870756c0b2818d83522016bd61f99f2ede"
+  version "0.1.1"
+  sha256 "d2fc491f4adad9475d039439753e838fcb98e9f9ba0e4927b2e9adbd64c17534"
 
   url "https://github.com/dzsubek/homebrew-tap/releases/download/v#{version}/VaultLight-#{version}.zip",
       verified: "github.com/dzsubek/homebrew-tap/"
